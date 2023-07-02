@@ -441,7 +441,10 @@ a {
   border: 1px solid #c3c3c3;
   border-radius: 10px;
 }
-
+.card h4{
+  text-align: center;
+  margin: 0.5rem;
+}
 .card-dark{
   background: linear-gradient(270deg, rgba(255, 236, 219, 0.43) 0%, #FFECDB 100%);
 }
@@ -970,7 +973,10 @@ input[type="submit"]:focus {
     justify-content: center;
     align-items: start;
   }
-
+  .card h4{
+    text-align: left;
+    margin: 0.5rem;
+  }
   .card-light{
     display: flex;
     order: -1;
@@ -979,6 +985,9 @@ input[type="submit"]:focus {
   /* Contact Us */
   .contact-us-links-container {
     order: 1;
+  }
+  .contact-us-title{
+    width: 200px;
   }
   .contact-us {
     width: 80%;

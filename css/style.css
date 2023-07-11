@@ -15,7 +15,7 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Montserrat", sans-serif;
-  --normal-font-size: 0.938rem;
+  --normal-font-size: 15px;
 
   /*========== Font weight ==========*/
   --font-regular: 400;
@@ -168,6 +168,7 @@ a {
   line-height: 1.9;
   max-width: 500px;
   margin: 0 auto;
+  font-weight: bold;
   
 }
 
@@ -180,6 +181,7 @@ a {
   border-radius: 5px;
   color: #454545;
   font-weight: bolder;
+  letter-spacing: 3px;
 }
 
 .welcome-para a:hover,
@@ -200,7 +202,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .img-box{
